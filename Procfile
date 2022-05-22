@@ -1,0 +1,1 @@
+web: gunicorn bill_detail_automation.wsgi --log-file -
