@@ -1,1 +1,1 @@
-web: gunicorn bill_detail_automation.wsgi --log-file -
+web: gunicorn bill_detail_automation.wsgi --timeout 1000 --log-file -
